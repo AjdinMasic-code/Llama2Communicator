@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LlamaCommunicator", "LlamaCommunicator.csproj", "{0408D9AA-578E-47A1-8A5F-D2FBE5353DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationService", "CommunicationService\CommunicationService.csproj", "{07C6FDCE-6CA4-4EF9-B219-3A8B46BA7D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0408D9AA-578E-47A1-8A5F-D2FBE5353DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0408D9AA-578E-47A1-8A5F-D2FBE5353DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0408D9AA-578E-47A1-8A5F-D2FBE5353DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0408D9AA-578E-47A1-8A5F-D2FBE5353DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C6FDCE-6CA4-4EF9-B219-3A8B46BA7D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C6FDCE-6CA4-4EF9-B219-3A8B46BA7D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C6FDCE-6CA4-4EF9-B219-3A8B46BA7D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C6FDCE-6CA4-4EF9-B219-3A8B46BA7D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

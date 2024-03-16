@@ -1,0 +1,13 @@
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/bin/Debug/net8.0/CommunicationService.deps.json
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/bin/Debug/net8.0/CommunicationService.dll
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/bin/Debug/net8.0/CommunicationService.pdb
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.csproj.AssemblyReference.cache
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.GeneratedMSBuildEditorConfig.editorconfig
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.AssemblyInfoInputs.cache
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.AssemblyInfo.cs
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.csproj.CoreCompileInputs.cache
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.sourcelink.json
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.dll
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/refint/CommunicationService.dll
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/CommunicationService.pdb
+/home/ajdinmasic/RiderProjects/Llama2Communicator/CommunicationService/obj/Debug/net8.0/ref/CommunicationService.dll

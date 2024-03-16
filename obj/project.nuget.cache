@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nhfqZ1BcM01QnRhu9eHlWjLXC4Y+VLJDFqafDRM5nGSMDNElx1pBu3HRVo1lxNhpIk/OHyDg5mgMQpiQJiu+8Q==",
+  "success": true,
+  "projectFilePath": "/home/ajdinmasic/RiderProjects/Llama2Communicator/LlamaCommunicator.csproj",
+  "expectedPackageFiles": [
+    "/home/ajdinmasic/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
