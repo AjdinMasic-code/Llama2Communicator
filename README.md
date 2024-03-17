@@ -1,4 +1,5 @@
-#Llama2Communicator
+# Llama2Communicator
+
 A web app that communicates with Llama2 via Ollama
 
 To set up this project, you have a few options, but here are the two options I have tested to get Ollama running:
@@ -12,7 +13,7 @@ After choosing your installation option and following the installation instructi
 
 This project depends on llama2-uncensored.
 
-##DO NOT MISS THESE STEPS
+## DO NOT MISS THESE STEPS
 If you chose option 1, run this command:
 ```
 ollama run llama2-uncensored
