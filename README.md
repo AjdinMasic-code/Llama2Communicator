@@ -11,9 +11,9 @@ Option 2 is recommended because it allows you to set it up in Docker and expose 
 
 After choosing your installation option and following the installation instructions for the options mentioned above...
 
-This project depends on llama2-uncensored.
+This project depends on llama2-uncensored however, you can change the dependency below during the "Model Settings" section.
 
-## DO NOT MISS THESE STEPS
+## DO NOT MISS THESE STEPS - You don't have to use 
 If you chose option 1, run this command:
 ```
 ollama run llama2-uncensored
@@ -24,17 +24,22 @@ If you chose option 2, run this command:
 docker exec -it ollama ollama run llama2-uncensored
 ```
 
+If you don't plan to run llama2-uncensored you can update the above commands for your specific model.
+
 After running the command, it should take you to the shell in the container where you can communicate with the model. Type /bye and hit enter.
 
 After completing these steps and cloning down this project, you can update the **appsettings.json** configuration. If you are using the Docker installation, you can update the base URL below to be your local IP. The port number is usually 11434, but you may need to investigate if that port was already occupied prior to installation. Leave the extension as is.
 
 ```
-"Llama2Settings": {
-    "BaseUrl": "insert your URL here... format is http://localhost",
-    "Port": "insert your port number here",
-    "Extension": "api"
+"ModelSettings": {
+    "BaseUrl": "insert url here.... format is http://localhost",
+    "Port": "insert port number here",
+    "Extension": "api",
+    "Model": "llama2-uncensored"
 }
 ```
+
+If you don't want to use llama2-uncensored you can update "Model" with the model you are using. This project has only been tested in the llama2 ecosystem.
 
 Once you have completed that, you have another two options: 1) Run with your IDE like Rider or Visual Studio, 2) Use Docker to deploy.
 
