@@ -1,6 +1,5 @@
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.GeneratedMSBuildEditorConfig.editorconfig
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.AssemblyInfoInputs.cache
-/home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.AssemblyInfo.cs
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.csproj.CoreCompileInputs.cache
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.MvcApplicationPartsAssemblyInfo.cache
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.RazorAssemblyInfo.cache
