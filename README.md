@@ -1,6 +1,6 @@
 # Llama2Communicator
 
-A web app that communicates with Llama2 via Ollama. At this time it is a super basic implementation that P.O.C.
+A web app that communicates with Llama2 via Ollama. At this time it is a super basic implementation that is a P.O.C at this time.
 
 To set up this project, you have a few options, but here are the two options I have tested to get Ollama running:
 
