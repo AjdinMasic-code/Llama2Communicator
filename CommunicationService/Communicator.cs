@@ -1,21 +1,24 @@
 ﻿using System.Text;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 
 namespace CommunicationService;
 
 public class Communicator : ICommunicator
 {
     private readonly HttpClient _httpClient;
+    private readonly IConfiguration _configurationManager;
 
-    public Communicator(IHttpClientFactory httpFactory)
+    public Communicator(IHttpClientFactory httpFactory, IConfiguration configurationManager)
     {
-        _httpClient = httpFactory.CreateClient("llama2-uncensored");
+        _httpClient = httpFactory.CreateClient("ollama");
+        _configurationManager = configurationManager;
     }
     public async Task<string> MakeRequest(string prompt)
     {
         var newPrompt = new LlamaPrompt()
         {
-            Model = "llama2-uncensored",
+            Model = _configurationManager.GetValue<string>("ModelSettings:Model") ?? "",
             Prompt = prompt,
             Stream = false
         };

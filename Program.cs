@@ -5,11 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddHttpClient("llama2-uncensored", httpClient =>
+builder.Services.AddHttpClient("ollama", httpClient =>
 {
-    var baseUrl = builder.Configuration.GetValue<string>("Llama2Settings:BaseUrl") ?? "";
-    var port = builder.Configuration.GetValue<string>("Llama2Settings:Port") ?? "";
-    var extension = builder.Configuration.GetValue<string>("Llama2Settings:Extension") ?? "";
+    var baseUrl = builder.Configuration.GetValue<string>("ModelSettings:BaseUrl") ?? "";
+    var port = builder.Configuration.GetValue<string>("ModelSettings:Port") ?? "";
+    var extension = builder.Configuration.GetValue<string>("ModelSettings:Extension") ?? "";
     var fullUrl = $"{baseUrl}:{port}/{extension}/";
     httpClient.BaseAddress = new Uri(fullUrl);
 });

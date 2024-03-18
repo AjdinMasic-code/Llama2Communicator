@@ -32,3 +32,5 @@
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.pdb
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/LlamaCommunicator.genruntimeconfig.cache
 /home/ajdinmasic/RiderProjects/Llama2Communicator/obj/Debug/net8.0/ref/LlamaCommunicator.dll
+/home/ajdinmasic/RiderProjects/Llama2Communicator/bin/Debug/net8.0/CommunicationService/bin/Debug/net8.0/CommunicationService.deps.json
+/home/ajdinmasic/RiderProjects/Llama2Communicator/bin/Debug/net8.0/CommunicationService/obj/Debug/net8.0/CommunicationService.sourcelink.json
